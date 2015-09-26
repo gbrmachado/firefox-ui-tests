@@ -36,8 +36,8 @@ future. Each library is available from an instance of the FirefoxTestCase class.
    ui/about_window/window
    ui/menu
    ui/pageinfo/window
-   ui/tabbar
-   ui/toolbars
+   ui/browser/tabbar
+   ui/browser/toolbars
    ui/update_wizard/dialog
    ui/windows
    api/appinfo
@@ -56,4 +56,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

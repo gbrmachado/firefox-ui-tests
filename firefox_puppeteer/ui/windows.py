@@ -476,7 +476,7 @@ class BrowserWindow(BaseWindow):
         self.switch_to()
 
         if not self._navbar:
-            from .toolbars import NavBar
+            from .browser.toolbars import NavBar
 
             navbar = self.window_element.find_element(By.ID, 'nav-bar')
             self._navbar = NavBar(lambda: self.marionette, self, navbar)
@@ -492,7 +492,7 @@ class BrowserWindow(BaseWindow):
         self.switch_to()
 
         if not self._tabbar:
-            from .tabbar import TabBar
+            from .browser.tabbar import TabBar
 
             tabbrowser = self.window_element.find_element(By.ID, 'tabbrowser-tabs')
             self._tabbar = TabBar(lambda: self.marionette, self, tabbrowser)
