@@ -118,7 +118,7 @@ class Windows(BaseLib):
             from .about_window.window import AboutWindow
             window = AboutWindow(lambda: self.marionette, handle)
         elif window_type == 'navigator:browser':
-            from browser.browserwindow import BrowserWindow
+            from browser.windows import BrowserWindow
             window = BrowserWindow(lambda: self.marionette, handle)
         elif window_type == 'Browser:page-info':
             from .pageinfo.window import PageInfoWindow

@@ -71,7 +71,7 @@ class BrowserWindow(BaseWindow):
         """Provides access to the navigation bar. This is the toolbar containing
         the back, forward and home buttons. It also contains the location bar.
 
-        See the :class:`~ui.toolbars.NavBar` reference.
+        See the :class:`~ui.browser.toolbars.NavBar` reference.
         """
         self.switch_to()
 
@@ -87,7 +87,7 @@ class BrowserWindow(BaseWindow):
     def tabbar(self):
         """Provides access to the tab bar.
 
-        See the :class:`~ui.tabbar.TabBar` reference.
+        See the :class:`~ui.browser.tabbar.TabBar` reference.
         """
         self.switch_to()
 

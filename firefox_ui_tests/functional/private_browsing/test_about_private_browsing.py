@@ -7,7 +7,7 @@ from marionette_driver import By, Wait
 from firefox_ui_harness.decorators import skip_if_e10s
 from firefox_ui_harness import FirefoxTestCase
 
-from firefox_puppeteer.ui.browser.browserwindow import BrowserWindow
+from firefox_puppeteer.ui.browser.windows import BrowserWindow
 
 
 class TestAboutPrivateBrowsing(FirefoxTestCase):

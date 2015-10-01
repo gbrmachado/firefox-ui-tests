@@ -1,4 +1,4 @@
-.. py:currentmodule:: firefox_puppeteer.ui.browser.browserwindow
+.. py:currentmodule:: firefox_puppeteer.ui.browser.windows
 
 BrowserWindow
 =============

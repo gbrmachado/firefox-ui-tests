@@ -5,7 +5,7 @@
 from marionette import MarionetteTestCase
 
 from firefox_puppeteer import Puppeteer
-from firefox_puppeteer.ui.browser.browserwindow import BrowserWindow
+from firefox_puppeteer.ui.browser.windows import BrowserWindow
 
 
 class FirefoxTestCase(MarionetteTestCase, Puppeteer):
