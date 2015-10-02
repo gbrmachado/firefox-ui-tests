@@ -38,7 +38,7 @@ future. Each library is available from an instance of the FirefoxTestCase class.
    ui/pageinfo/window
    ui/browser/tabbar
    ui/browser/toolbars
-   ui/browser/windows
+   ui/browser/window
    ui/update_wizard/dialog
    ui/windows
    api/appinfo
